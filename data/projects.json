@@ -1,0 +1,20 @@
+[
+    {
+        "id" : 1,
+        "name" : "Todo App",
+        "liveLink" : "https://todo-app-liart-five.vercel.app/",
+        "githubLink" : "https://github.com/nidaxnido/todo-app",
+        "description" : "Todo App is a web application that enables user to add tasks to do as an active task, then check it as completed. It also enables user to remove tasks including the active and completed task, and remove all the completed tasks at once. User also can choose to display all task, only active task or only the completed ones. In the web app also provides switch of color mode that can be used by user to switch between dark and light mode. the task data is saved in local storage, so even when the user refresh the browser, it will still be there. I build this app using React.Js, Next.Js, and styled it using Chakra-UI. Challenging myself more in switching color mode and saving up data locally.",
+        "image": "/projects/1/dark-mode.jpg"
+
+    },
+    {
+        "id" : 2,
+        "name" : "Secon App",
+        "liveLink" : "https://todo-app-liart-five.vercel.app/",
+        "githubLink" : "https://github.com/nidaxnido/todo-app",
+        "description" : "Todo App is a web application that enables user to add tasks to do as an active task, then check it as completed. It also enables user to remove tasks including the active and completed task, and remove all the completed tasks at once. User also can choose to display all task, only active task or only the completed ones. In the web app also provides switch of color mode that can be used by user to switch between dark and light mode. the task data is saved in local storage, so even when the user refresh the browser, it will still be there. I build this app using React.Js, Next.Js, and styled it using Chakra-UI. Challenging myself more in switching color mode and saving up data locally.",
+        "image": "/projects/1/light-mode.jpg"
+
+    }
+]

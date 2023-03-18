@@ -6,11 +6,11 @@ export default function Logos(){
     return <Box position="fixed">
     <span className={logo.className}>
     <Text as="span" 
-      color="nida.white"
+      color="nida.orange"
       fontWeight="bold"
       fontSize="120px">N</Text>
       <Text as="span" 
-      color="nida.orange"
+      color="nida.green"
       fontWeight="bold"
       fontSize="120px">ida</Text>
     </span>

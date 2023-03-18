@@ -1,0 +1,55 @@
+{
+    "fullname" : "Ni'mal Mursyidah",
+    "nickname" :"Nida",
+    "role" : "Front-End Web Developer",
+    "about" :"Experienced fullstack web developer with 3 years of hands-on experience in designing and developing PHP-based applications. Seeking opportunities to transition to a role as a frontend web developer using React. Strong understanding of HTML, CSS, JavaScript, and responsive design principles. Able to collaborate with developers, designers, and stakeholders to provide seamless user experiences.",
+    "address" : "Gunungteguh",
+    "kodepos" : "61181",
+    "kecamatan" : "Sangkapura",
+    "kabupaten" : "Gresik",
+    "negara" : "Indonesia",
+    "employment" :[
+        {
+            "role" :"Fullstack Web Developer",
+            "company" :"Morning Glory Enterprise",
+            "city" :"Surabaya, Indonesia",
+            "start" :"March 2020",
+            "end" : "Feb 2023",
+            "jobdesk" :[ "Developing projects according to the requirements",
+                        "Designing database scheme for the upcoming projects",
+                        "Bug fixing deployed projects",
+                        "Adding new features to existing projects",
+                        "Analyzing problems of an existing project with lots of data and slow processes",
+                        "Optimizing codes and queries for an existing project to produce faster process"
+            ]
+        }
+    ],
+    "education":{
+        "major":"Bachelor Degree of Computer Science",
+        "university" :"Institute Technology of Adhi Tama Surabaya",
+        "city" : "Surabaya, Indonesia",
+        "duration" : "August 2016 - April 2020"
+    },
+    "skills":[
+        "JavaScript","React Js","Next Js", "TypeScript","CSS", "HTML", "PHP", "Python", "Java","C#", "C/C++", "Laravel", "SilverStripe","MySQL", "PostgreSQL","SQL Server" 
+    ],
+    "languages":[
+        {
+            "lang" : "Indonesian",
+            "level" : "Native Speaker"
+        },
+        {
+            "lang" : "English",
+            "level" : "Intermediate"
+        }
+    ],
+    "links":[
+        "https://nidanido.com",
+        "https://github.com/nidaxnido",
+        "https://www.linkedin.com/in/nidanido/"
+    ]
+
+
+
+
+}
