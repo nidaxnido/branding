@@ -4,10 +4,10 @@ import { getProfileData } from "@/data/getProfileData";
 import { personal, project } from "@/types";
 import { Box, Flex,Heading,Image, VStack,Text, UnorderedList, ListItem, StackDivider, Divider, Button, Link } from "@chakra-ui/react";
 import React from "react";
-import Pdf from 'react-to-pdf'
+import ReactToPdf from 'react-to-pdf'
 
 const Title=({judul}:{judul:string}) =>{
-  return <Text bg="nida.green" color="nida.bg" px="10px" py="5px" borderRadius="3px" mt="10px !important" mb="5px !important">{judul.toUpperCase()}</Text>
+  return <Text bg="nida.green" color="nida.bg" px="10px" py="5px" borderRadius="3px" mt="10px !important">{judul.toUpperCase()}</Text>
 }
 
 export default function Contact({data}:{data:personal}){
@@ -16,12 +16,12 @@ export default function Contact({data}:{data:personal}){
     return <Box w="100vw" h="100%" minH="100vh" bg="nida.bg" color="nida.green" fontSize="14px" pb="50px">
         <Header />
         
-        {/* {({ toPdf }) => <button onClick={toPdf}>Generate Pdf</button>} */}
+        {/* {({ toPdf }) => <button onClick={toPdf}>Generate ReactToPdf</button>} */}
       
         <Flex alignItems="flex-end" justifyContent="end" w="90%" maxW="800px" mx="auto">
-          <Pdf targetRef={ref} filename="resume-nida.pdf">
+          <ReactToPdf targetRef={ref} filename="resume-nida.pdf">
             {({ toPdf }:{toPdf:()=>void}) => <Button color="black" textDecor="underline" onClick={()=>{toPdf(); console.log("cekcek")}}>Download Resume</Button>}
-          </Pdf>
+          </ReactToPdf>
         </Flex>
         {/* <div ref={ref}> */}
           
